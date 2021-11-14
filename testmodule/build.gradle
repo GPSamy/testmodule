@@ -42,3 +42,15 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 }
 
+afterEvaluate {
+    publishing{
+        publications {
+            release(MavenPublication){
+                from components.release
+                groupId ='com.github.gpsamy'
+                artifactId ='easy-datastore'
+                version ='1.0.0'
+            }
+        }
+    }
+}
