@@ -7,6 +7,8 @@ class Template {
         @JvmStatic
         fun showLog() {
             Log.d("*Test*", "showLog: " + "This is for test log")
+            Log.d("*Test*", "showToast:    "+"This is for template")
+
         }
     }
 }
