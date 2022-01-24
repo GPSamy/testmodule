@@ -48,8 +48,8 @@ afterEvaluate {
             release(MavenPublication){
                 from components.release
                 groupId ='com.github.gpsamy'
-                artifactId ='easy-datastore'
-                version ='1.1.2'
+                artifactId ='testmodule'
+                version ='1.1.3'
             }
         }
     }
