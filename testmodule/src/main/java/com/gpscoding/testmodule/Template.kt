@@ -8,6 +8,7 @@ class Template {
         fun showLog() {
             Log.d("*Test*", "showLog: " + "This is for test log")
             Log.d("*Test*", "showToast:    "+"This is for template")
+            Log.d("*Test*", "showToast:    "+"This is for template-1.1.4")
 
         }
     }
